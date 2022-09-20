@@ -1,0 +1,216 @@
+body {
+  color: #e8f9fd;
+  background-color: #1363df;
+}
+/* navigate bar  */
+.nav-bg-cor {
+  position: relative;
+  padding: 0;
+  background-color: #06283d;
+}
+
+.navigate-bar {
+  background-color: #06283d;
+  position: fixed;
+  padding: 0 30px;
+  border-bottom: solid;
+  border-width: 1px;
+  z-index: 1;
+}
+
+.banner {
+  background-image: url("https://i2.wp.com/csengineermag.com/wp-content/uploads/2020/04/AdobeStock_302399784.jpeg?fit=3600%2C1800&ssl=1");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+}
+
+.greeting {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+}
+
+.greeting-message {
+  font-size: 5rem;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.nav-link {
+  margin: 0 45px;
+}
+
+/* Skillset section */
+.skillsSection {
+  padding: 5% 10%;
+}
+.skillSectionHeader {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.skills div {
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  margin: 2% 5%;
+}
+.skills p {
+  margin-top: 15%;
+  font-size: large;
+  font-weight: bold;
+}
+
+.skills img {
+  width: 150px;
+  height: 150px;
+  transition: all 1s;
+}
+
+.skills img:hover {
+  box-shadow: 0 0 100px;
+  width: 155px;
+  height: 155px;
+  transform: rotate(360deg);
+}
+
+/* Resume section */
+.margin-left {
+  margin-left: 5%;
+}
+
+.resumeDiv {
+  padding: 8% 8% 2%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: justify;
+}
+
+.resumeDiv img {
+  border-radius: 50%;
+}
+
+.education {
+  margin-left: 5%;
+  width: 30%;
+}
+
+.skillsContent {
+  width: 30%;
+}
+
+/* project section */
+.projectSection {
+  display: flex;
+  justify-content: center;
+}
+.projectSection .container-fluid {
+  padding: 7% 15%;
+}
+
+/* contact me */
+.contaceMe {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: center;
+  padding: 0.5% 3%;
+}
+.email {
+  margin-left: 5%;
+}
+
+/* footer section */
+footer {
+  background-color: #06283d;
+  text-align: center;
+  padding: 1%;
+}
+
+@media (max-width: 1500px) {
+  .nav-link {
+    margin: 0 25px;
+  }
+
+  .banner {
+    background-image: url("https://i2.wp.com/csengineermag.com/wp-content/uploads/2020/04/AdobeStock_302399784.jpeg?fit=3600%2C1800&ssl=1");
+    background-position: 15% center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .greeting {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+  }
+
+  .greeting-message {
+    font-size: 3rem;
+    font-family: sans-serif;
+  }
+  .skills img {
+    width: 100px;
+    height: 100px;
+    transition: all 1s;
+  }
+}
+
+@media (max-width: 800px) {
+  .greeting {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+  }
+  .greeting-message {
+    font-size: 1.8rem;
+  }
+  .banner {
+    background-image: url("https://i2.wp.com/csengineermag.com/wp-content/uploads/2020/04/AdobeStock_302399784.jpeg?fit=3600%2C1800&ssl=1");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 100vw;
+  }
+  .skills img {
+    width: 70px;
+    height: 70px;
+    transition: none;
+  }
+  .skills p {
+    font-size: small;
+  }
+  .skillSectionHeader {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .skills img:hover {
+    box-shadow: 0 0 100px;
+    width: 52px;
+    height: 52px;
+  }
+  .resumeDiv {
+    padding: 8% 8% 2%;
+    display: block;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .education,
+  .skillsContent,
+  .margin-left {
+    margin-left: 0px;
+    width: auto;
+    margin-top: 30px;
+  }
+}
