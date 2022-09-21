@@ -168,6 +168,9 @@ footer {
 }
 
 @media (max-width: 800px) {
+  .nav-bg-cor .container-fluid {
+    padding: 7px;
+  }
   .greeting {
     position: absolute;
     top: 25%;
